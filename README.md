@@ -41,6 +41,15 @@ The goal is to design a smart wearable device — integrated into a vest — tha
 	Storage: microSD module (SPI interface)
 
 	Power: Li-Po battery + TP4056 charger + 3.3V regulator
+		| Component                 | Model                           | Function                         |
+	| ------------------------- | ------------------------------- | -------------------------------- |
+	| **Microcontroller (MCU)** | STM32WB5MMG                     | BLE + main processor (Cortex-M4) |
+	| **IMU Sensor**            | ICM-20948 / MPU-9250            | Motion & orientation tracking    |
+	| **Heart Rate Sensor**     | MAX30102                        | Heart rate & oxygen saturation   |
+	| **GPS Module**            | NEO-M8N                         | Location and speed tracking      |
+	| **Storage**               | microSD (SPI)                   | Data logging                     |
+	| **Power System**          | Li-Po + TP4056 + 3.3V regulator | Battery management               |
+
 
 🧠 System Concept
 
