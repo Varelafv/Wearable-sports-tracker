@@ -4,7 +4,7 @@ This project was created as a learning exercise in developing a new electronic p
 
 The goal is to design a smart wearable device — integrated into a vest — that can monitor an athlete’s performance and provide useful data to improve training results.
 
-* 🎯 Project Objectives 
+🎯 Project Objectives 
 
 	Learn and practice the full process of hardware and firmware development.
 
@@ -14,7 +14,7 @@ The goal is to design a smart wearable device — integrated into a vest — tha
 
 	Collect, store, and analyze biometric and movement data from the user.
 
-*  ⚙️ Planned Features
+ ⚙️ Planned Features
 
 	Motion tracking using IMU sensors (accelerometer, gyroscope, magnetometer).
 
