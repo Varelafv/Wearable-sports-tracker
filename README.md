@@ -1,4 +1,4 @@
-#🏃‍♂️ Wearable Sports Tracker
+<h1 align="center">🏃‍♂️ Wearable Sports Tracker</h1>
 
 This project was created as a learning exercise in developing a new electronic product, from concept to prototype.
 
