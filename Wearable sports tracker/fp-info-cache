@@ -1,4 +1,4 @@
-25611198558239310
+25612959732015951
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101926,6 +101926,13 @@ valve
 0
 9
 8
+Varelapretty
+QFN-68-1EP_8x8mm_P0.4mm_EP6.4x6.4mm
+QFN, 68 Pin (https://www.st.com/resource/en/datasheet/stm32h725ze.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+85
+69
 Varistor
 RV_Disc_D7mm_W3.4mm_P5mm
 Varistor, diameter 7mm, width 3.4mm, pitch 5mm
