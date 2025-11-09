@@ -1771,6 +1771,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1898,6 +2023,12 @@
 		(uuid "17841c30-df9e-40eb-b5b0-17c76cfb1a20")
 	)
 	(junction
+		(at 132.08 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85774e07-d28e-4de1-8e01-ad8e82fc24d0")
+	)
+	(junction
 		(at 133.35 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1914,6 +2045,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90dfcb47-3f35-4068-b025-975852f76b5e")
+	)
+	(junction
+		(at 153.67 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a19f5076-ed81-4daa-bfb4-6619956580bc")
+	)
+	(junction
+		(at 158.75 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4b9db4f-05b8-48f0-9a6a-5e17adfca663")
 	)
 	(junction
 		(at 38.1 46.99)
@@ -1944,6 +2087,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c49af6b1-cbf6-4ddb-87df-b8459ba7bc8c")
+	)
+	(junction
+		(at 153.67 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c77bae97-7e92-41de-b9aa-0885e52ed381")
+	)
+	(junction
+		(at 135.89 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee8c695a-9aed-411a-abb6-a0031d27373a")
 	)
 	(junction
 		(at 87.63 33.02)
@@ -2019,6 +2174,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 158.75) (xy 135.89 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18c8192e-7df7-4e11-8fc6-2d185e22a16c")
+	)
+	(wire
+		(pts
 			(xy 87.63 46.99) (xy 101.6 46.99)
 		)
 		(stroke
@@ -2026,6 +2191,46 @@
 			(type default)
 		)
 		(uuid "1c0ecb5c-2cb2-419c-a7ab-58a77e003c3b")
+	)
+	(wire
+		(pts
+			(xy 132.08 22.86) (xy 140.97 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "216ba12f-9421-4823-bb03-6068940ac5f9")
+	)
+	(wire
+		(pts
+			(xy 133.35 152.4) (xy 133.35 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c8fcbdb-9b1a-414b-a723-bd2aad8de480")
+	)
+	(wire
+		(pts
+			(xy 163.83 35.56) (xy 163.83 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fd8a52a-ca4b-4ec5-8665-cabf738dbb1c")
+	)
+	(wire
+		(pts
+			(xy 163.83 39.37) (xy 153.67 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34b723da-764c-4e76-ab4f-570eb5cc63ee")
 	)
 	(wire
 		(pts
@@ -2069,6 +2274,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 158.75) (xy 135.89 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56428d46-cce3-457d-bc6d-f57238b58e62")
+	)
+	(wire
+		(pts
 			(xy 101.6 46.99) (xy 101.6 43.18)
 		)
 		(stroke
@@ -2079,6 +2294,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 33.02) (xy 132.08 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ce4b3cb-4ba3-49f7-ad88-b1f6f2e080b8")
+	)
+	(wire
+		(pts
 			(xy 101.6 33.02) (xy 128.27 33.02)
 		)
 		(stroke
@@ -2086,6 +2311,16 @@
 			(type default)
 		)
 		(uuid "5d51ad46-2b74-463b-b433-cb64cb2c77d7")
+	)
+	(wire
+		(pts
+			(xy 153.67 22.86) (xy 158.75 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5de5b3a1-165f-43f4-8178-fe90b73faa19")
 	)
 	(wire
 		(pts
@@ -2129,6 +2364,26 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 25.4) (xy 132.08 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bb4b014-42c0-4292-9147-ded7c83b8957")
+	)
+	(wire
+		(pts
+			(xy 153.67 35.56) (xy 153.67 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "797b94db-aba2-42a0-ba35-1efa31d5af8f")
+	)
+	(wire
+		(pts
 			(xy 146.05 55.88) (xy 146.05 54.61)
 		)
 		(stroke
@@ -2159,6 +2414,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 22.86) (xy 132.08 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a4a93e3-7e22-41b4-b149-1304692a9e98")
+	)
+	(wire
+		(pts
 			(xy 135.89 54.61) (xy 138.43 54.61)
 		)
 		(stroke
@@ -2176,6 +2441,26 @@
 			(type default)
 		)
 		(uuid "961810ba-83d0-4ec1-9fad-80fda7b0b0d9")
+	)
+	(wire
+		(pts
+			(xy 153.67 39.37) (xy 153.67 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "967cbcc4-52ae-48be-8960-462e660d83d1")
+	)
+	(wire
+		(pts
+			(xy 143.51 22.86) (xy 143.51 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9708e77e-347c-41e9-b0aa-489266f57eeb")
 	)
 	(wire
 		(pts
@@ -2199,6 +2484,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 158.75) (xy 135.89 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a34359b0-9b87-40c2-92d5-e836065d7dd4")
+	)
+	(wire
+		(pts
 			(xy 87.63 33.02) (xy 101.6 33.02)
 		)
 		(stroke
@@ -2219,6 +2514,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 22.86) (xy 158.75 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b767d8f4-6960-4cf7-9e41-77557785b9f3")
+	)
+	(wire
+		(pts
 			(xy 38.1 33.02) (xy 54.61 33.02)
 		)
 		(stroke
@@ -2226,6 +2531,16 @@
 			(type default)
 		)
 		(uuid "b7949302-a6b3-4927-b142-7d37eb4eedc6")
+	)
+	(wire
+		(pts
+			(xy 135.89 158.75) (xy 138.43 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9879a20-9568-475d-8764-a9cac5729267")
 	)
 	(wire
 		(pts
@@ -2239,6 +2554,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 27.94) (xy 153.67 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcd82323-1baf-4fa8-b919-68278f18dcb5")
+	)
+	(wire
+		(pts
 			(xy 135.89 54.61) (xy 135.89 55.88)
 		)
 		(stroke
@@ -2249,6 +2574,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 22.86) (xy 153.67 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c47b2598-891b-44a1-8b35-3ff80dc91a49")
+	)
+	(wire
+		(pts
 			(xy 54.61 33.02) (xy 54.61 35.56)
 		)
 		(stroke
@@ -2256,6 +2591,26 @@
 			(type default)
 		)
 		(uuid "c6f0de1a-20fd-4c58-8f27-1aba1fa53628")
+	)
+	(wire
+		(pts
+			(xy 163.83 27.94) (xy 163.83 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8fd7a52-f780-4255-b35d-ca94caf5a516")
+	)
+	(wire
+		(pts
+			(xy 140.97 22.86) (xy 140.97 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d24c8eff-be9c-47a0-aa0e-0f209f337a80")
 	)
 	(wire
 		(pts
@@ -2299,6 +2654,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 158.75) (xy 138.43 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e70f6477-19da-41e0-a891-b52576f97eaa")
+	)
+	(wire
+		(pts
 			(xy 54.61 46.99) (xy 54.61 43.18)
 		)
 		(stroke
@@ -2336,7 +2701,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "4u7"
 			(at 31.75 40.6399 0)
 			(effects
 				(font
@@ -2454,6 +2819,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 38.1 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d0b99d0-706d-45e0-b738-b5038ff213e3")
+		(property "Reference" "#PWR02"
+			(at 38.1 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 38.1 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 38.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d4c653e-eee8-4163-b67a-25eb48e12061")
+		)
+		(instances
+			(project ""
+				(path "/68498449-8a51-4d66-bad8-f83e823b9018/2df74dd2-db44-434e-85c6-a6bca5c8e945"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 101.6 39.37 0)
 		(unit 1)
@@ -2518,6 +2949,144 @@
 			(project "Wearable sports tracker"
 				(path "/68498449-8a51-4d66-bad8-f83e823b9018/2df74dd2-db44-434e-85c6-a6bca5c8e945"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 132.08 29.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25c03cec-d387-4c49-adeb-3494af88735c")
+		(property "Reference" "C9"
+			(at 128.27 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 128.27 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 131.1148 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 132.08 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b66f88f-f197-486d-8711-1f52a449b0ef")
+		)
+		(pin "2"
+			(uuid "6ad8e871-ae56-4525-b07e-8fcc382ebe6e")
+		)
+		(instances
+			(project "Wearable sports tracker"
+				(path "/68498449-8a51-4d66-bad8-f83e823b9018/2df74dd2-db44-434e-85c6-a6bca5c8e945"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 132.08 40.64 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36eb4929-0c64-4de8-af31-9478128f3a97")
+		(property "Reference" "#PWR05"
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bcb0b2a-4a2b-47dc-9400-81b585367ed8")
+		)
+		(instances
+			(project "Wearable sports tracker"
+				(path "/68498449-8a51-4d66-bad8-f83e823b9018/2df74dd2-db44-434e-85c6-a6bca5c8e945"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2658,6 +3227,77 @@
 			(project "Wearable sports tracker"
 				(path "/68498449-8a51-4d66-bad8-f83e823b9018/2df74dd2-db44-434e-85c6-a6bca5c8e945"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 153.67 31.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4adf57de-8b1b-47a5-8b9b-2dd5cd7eb725")
+		(property "Reference" "C8"
+			(at 149.86 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 149.86 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.7048 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 153.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e951f0e8-da0f-4ff3-9132-eaf3dfc0b648")
+		)
+		(pin "2"
+			(uuid "ecceaab3-bc5d-4eb3-8e71-468801981b89")
+		)
+		(instances
+			(project "Wearable sports tracker"
+				(path "/68498449-8a51-4d66-bad8-f83e823b9018/2df74dd2-db44-434e-85c6-a6bca5c8e945"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -3007,6 +3647,77 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 163.83 31.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93929b8c-b72a-42ed-86e1-aca9730a9938")
+		(property "Reference" "C7"
+			(at 160.02 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 160.02 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.8648 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 163.83 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6c1ccb5-429d-4c32-8f35-8da9b7303761")
+		)
+		(pin "2"
+			(uuid "a0b27dfe-1b93-4ec1-98ef-3bb254897842")
+		)
+		(instances
+			(project "Wearable sports tracker"
+				(path "/68498449-8a51-4d66-bad8-f83e823b9018/2df74dd2-db44-434e-85c6-a6bca5c8e945"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 68.58 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3070,6 +3781,273 @@
 			(project "Wearable sports tracker"
 				(path "/68498449-8a51-4d66-bad8-f83e823b9018/2df74dd2-db44-434e-85c6-a6bca5c8e945"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 43.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3543504-9a36-4837-bd68-d05f75152e76")
+		(property "Reference" "#PWR04"
+			(at 153.67 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32c43d1d-3dc6-47fb-a782-dc13ad6d2970")
+		)
+		(instances
+			(project "Wearable sports tracker"
+				(path "/68498449-8a51-4d66-bad8-f83e823b9018/2df74dd2-db44-434e-85c6-a6bca5c8e945"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4f1e37e-5496-445e-a92d-45c6599ab56e")
+		(property "Reference" "#PWR07"
+			(at 135.89 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee3656ab-c2e9-4545-8ec4-8e4c16e541a9")
+		)
+		(instances
+			(project "Wearable sports tracker"
+				(path "/68498449-8a51-4d66-bad8-f83e823b9018/2df74dd2-db44-434e-85c6-a6bca5c8e945"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 158.75 22.86 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca4d584d-4f0d-4b90-8c67-9d11b2655c33")
+		(property "Reference" "#PWR03"
+			(at 158.75 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 158.75 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 158.75 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d0dc137-24f8-4913-aee8-2f0bb88be022")
+		)
+		(instances
+			(project "Wearable sports tracker"
+				(path "/68498449-8a51-4d66-bad8-f83e823b9018/2df74dd2-db44-434e-85c6-a6bca5c8e945"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 132.08 20.32 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4d40feb-526c-4a7a-b880-737078e16114")
+		(property "Reference" "#PWR06"
+			(at 132.08 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 132.08 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 132.08 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38abb60d-9320-4b3e-8315-55c024e81ec4")
+		)
+		(instances
+			(project "Wearable sports tracker"
+				(path "/68498449-8a51-4d66-bad8-f83e823b9018/2df74dd2-db44-434e-85c6-a6bca5c8e945"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)

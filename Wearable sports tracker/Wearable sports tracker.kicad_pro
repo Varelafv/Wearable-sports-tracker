@@ -612,6 +612,18 @@
     [
       "68498449-8a51-4d66-bad8-f83e823b9018",
       "Root"
+    ],
+    [
+      "2df74dd2-db44-434e-85c6-a6bca5c8e945",
+      "Embedded Processing"
+    ],
+    [
+      "08dbbf11-1e87-4695-a2df-a7e0ae2852a5",
+      "Signal Acquisition Sensor"
+    ],
+    [
+      "4b6586cc-4ee7-4140-b924-5ff86a262942",
+      "Transmision & Stockage"
     ]
   ],
   "text_variables": {}
