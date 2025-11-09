@@ -1635,7 +1635,7 @@
 	)
 	(symbol
 		(lib_id "VARELA:STM32WB55RGVx")
-		(at 135.89 104.14 0)
+		(at 156.21 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1644,7 +1644,7 @@
 		(fields_autoplaced yes)
 		(uuid "8cd97ada-9c2f-46df-a655-b08066addfc7")
 		(property "Reference" "U1"
-			(at 140.5733 152.4 0)
+			(at 160.8933 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1653,7 +1653,7 @@
 			)
 		)
 		(property "Value" "STM32WB55RGVx"
-			(at 140.5733 154.94 0)
+			(at 160.8933 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1662,7 +1662,7 @@
 			)
 		)
 		(property "Footprint" "Varelapretty:QFN-68-1EP_8x8mm_P0.4mm_EP6.4x6.4mm"
-			(at 115.57 149.86 0)
+			(at 135.89 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1672,7 +1672,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32wb55rg.pdf"
-			(at 135.89 104.14 0)
+			(at 156.21 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1681,7 +1681,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 1024KB flash, 256KB RAM, 64 MHz, 1.71-3.6V, 49 GPIO, VFQFPN68"
-			(at 135.89 104.14 0)
+			(at 156.21 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
