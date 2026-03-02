@@ -5,6 +5,199 @@
 	(uuid "9294c745-e875-420b-aac8-f6e1fa52038d")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 2.54 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_ARM_SWD_TagConnect_TC2030-NL"
+				(at 2.54 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Cortex Debug Connector ARM SWD JTAG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TC2030*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_ARM_SWD_TagConnect_TC2030-NL_0_0"
+				(pin power_in line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "SWCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TCK" output line)
+				)
+				(pin bidirectional line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "SWDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TMS" bidirectional line)
+				)
+				(pin input line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "SWO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TDO" input line)
+				)
+			)
+			(symbol "Conn_ARM_SWD_TagConnect_TC2030-NL_0_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2650,12 +2843,6 @@
 		(uuid "90dfcb47-3f35-4068-b025-975852f76b5e")
 	)
 	(junction
-		(at 186.69 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98435e29-8722-4f1d-a57b-e9050c238520")
-	)
-	(junction
 		(at 153.67 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2815,16 +3002,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 64.77) (xy 191.77 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16850acf-0c95-4821-bf7f-8fdc9343f738")
-	)
-	(wire
-		(pts
 			(xy 38.1 35.56) (xy 38.1 33.02)
 		)
 		(stroke
@@ -2832,16 +3009,6 @@
 			(type default)
 		)
 		(uuid "16bd60d1-4bf3-4c86-912a-cd7ebf988153")
-	)
-	(wire
-		(pts
-			(xy 186.69 76.2) (xy 186.69 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "179ee9fd-75d6-4601-8d13-238c127e15c0")
 	)
 	(wire
 		(pts
@@ -2882,16 +3049,6 @@
 			(type default)
 		)
 		(uuid "216ba12f-9421-4823-bb03-6068940ac5f9")
-	)
-	(wire
-		(pts
-			(xy 203.2 64.77) (xy 203.2 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2526e9cd-bf12-47bb-b12d-6f9b927aa251")
 	)
 	(wire
 		(pts
@@ -3125,16 +3282,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 76.2) (xy 203.2 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d6cc5cb-0870-41a4-a599-78d1e917ca4c")
-	)
-	(wire
-		(pts
 			(xy 113.03 83.82) (xy 77.47 83.82)
 		)
 		(stroke
@@ -3295,16 +3442,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 64.77) (xy 186.69 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac5836ff-36f9-4c82-8322-ed182bf1b48f")
-	)
-	(wire
-		(pts
 			(xy 87.63 33.02) (xy 101.6 33.02)
 		)
 		(stroke
@@ -3455,16 +3592,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 64.77) (xy 203.2 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc1b1c2b-cde0-47cd-8a06-1305914d79e4")
-	)
-	(wire
-		(pts
 			(xy 67.31 170.18) (xy 58.42 170.18)
 		)
 		(stroke
@@ -3605,16 +3732,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 64.77) (xy 186.69 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6f08bd1-de16-4de9-9d97-71b1a47b846f")
-	)
-	(wire
-		(pts
 			(xy 58.42 157.48) (xy 58.42 170.18)
 		)
 		(stroke
@@ -3693,16 +3810,6 @@
 		)
 		(uuid "8ea3634b-9444-4237-bcfd-7ecc1a7baa45")
 	)
-	(label "RF1"
-		(at 177.8 64.77 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left bottom)
-		)
-		(uuid "953b7916-4b23-4ce1-9cb5-7b67757a9cf6")
-	)
 	(label "HSE_IN"
 		(at 20.32 163.83 0)
 		(effects
@@ -3752,6 +3859,28 @@
 			(justify left bottom)
 		)
 		(uuid "f44deacf-a10d-4712-a287-58292218157a")
+	)
+	(global_label "RF1"
+		(shape output)
+		(at 100.33 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af4f1a33-2528-410f-a5b0-19b1dc6898ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.7767 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -4302,74 +4431,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 195.58 64.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2cc95c38-5ac1-49e2-b4f3-736ca7a20174")
-		(property "Reference" "L3"
-			(at 195.58 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L"
-			(at 195.58 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 195.58 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a7fd2bf-2601-4396-948b-15012f924209")
-		)
-		(pin "2"
-			(uuid "5b9aa15d-20a4-4ceb-84d9-2e411bb38650")
-		)
-		(instances
-			(project "Wearable sports tracker"
-				(path "/68498449-8a51-4d66-bad8-f83e823b9018/2df74dd2-db44-434e-85c6-a6bca5c8e945"
-					(reference "L3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 132.08 40.64 0)
 		(mirror y)
@@ -4780,72 +4841,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 186.69 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7321e059-7841-40e7-ad33-4e1e690a3e59")
-		(property "Reference" "#PWR012"
-			(at 186.69 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.69 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f041048e-15c7-4703-b992-f0475a069757")
-		)
-		(instances
-			(project "Wearable sports tracker"
-				(path "/68498449-8a51-4d66-bad8-f83e823b9018/2df74dd2-db44-434e-85c6-a6bca5c8e945"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 58.42 177.8 0)
 		(unit 1)
@@ -5181,76 +5176,6 @@
 			(project "Wearable sports tracker"
 				(path "/68498449-8a51-4d66-bad8-f83e823b9018/2df74dd2-db44-434e-85c6-a6bca5c8e945"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 186.69 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8dbe4415-850e-4992-ae2c-7a140e9c45ba")
-		(property "Reference" "C13"
-			(at 190.5 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.8pF"
-			(at 190.5 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.6552 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 186.69 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "385ee2e9-b2f8-4b42-8188-d0989d87f33e")
-		)
-		(pin "1"
-			(uuid "89488931-0427-4874-a8cb-a4f5a59f6569")
-		)
-		(instances
-			(project ""
-				(path "/68498449-8a51-4d66-bad8-f83e823b9018/2df74dd2-db44-434e-85c6-a6bca5c8e945"
-					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -5669,6 +5594,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL")
+		(at 196.85 72.39 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1ed5769-01da-4d44-bf7a-a032891dc0cc")
+		(property "Reference" "J2"
+			(at 203.2 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_ARM_SWD_TagConnect_TC2030-NL"
+			(at 203.2 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+			(at 196.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
+			(at 196.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs"
+			(at 196.85 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "70181bbd-ed48-49c6-9ff9-7d32fafe711e")
+		)
+		(pin "2"
+			(uuid "b5a05258-e964-49c7-860a-83b33741796e")
+		)
+		(pin "6"
+			(uuid "48806835-b312-4218-8388-2643db7a5f15")
+		)
+		(pin "3"
+			(uuid "1640c7b7-c205-42c1-912f-ad6fd2e1a683")
+		)
+		(pin "5"
+			(uuid "605d48a1-67e3-45ff-abb2-57eed1cfbcb9")
+		)
+		(pin "1"
+			(uuid "99422d59-70ec-45bc-9527-87880bb616ec")
+		)
+		(instances
+			(project ""
+				(path "/68498449-8a51-4d66-bad8-f83e823b9018/2df74dd2-db44-434e-85c6-a6bca5c8e945"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 85.09 68.58 90)
 		(unit 1)
@@ -5737,72 +5744,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 203.2 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc225fc9-c9f6-4bb8-bb30-b66837017aa3")
-		(property "Reference" "#PWR013"
-			(at 203.2 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 203.2 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e248d11f-d1ba-4d6d-a9c0-b4243a84631e")
-		)
-		(instances
-			(project "Wearable sports tracker"
-				(path "/68498449-8a51-4d66-bad8-f83e823b9018/2df74dd2-db44-434e-85c6-a6bca5c8e945"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 158.75 22.86 0)
 		(mirror y)
@@ -5864,76 +5805,6 @@
 			(project "Wearable sports tracker"
 				(path "/68498449-8a51-4d66-bad8-f83e823b9018/2df74dd2-db44-434e-85c6-a6bca5c8e945"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 203.2 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5485db2-7c54-41b4-94bc-783e6aa45718")
-		(property "Reference" "C14"
-			(at 207.01 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.3pF"
-			(at 207.01 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.1652 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 203.2 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6b167e3c-d01a-4ed5-8304-ea2b4f69797c")
-		)
-		(pin "1"
-			(uuid "fd6abdb5-b817-4c66-9001-db3ea24de0d3")
-		)
-		(instances
-			(project "Wearable sports tracker"
-				(path "/68498449-8a51-4d66-bad8-f83e823b9018/2df74dd2-db44-434e-85c6-a6bca5c8e945"
-					(reference "C14")
 					(unit 1)
 				)
 			)
