@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "68498449-8a51-4d66-bad8-f83e823b9018")
 	(paper "A4")
+	(title_block
+		(title " Wearable Sports Tracker")
+		(date "2025-11-09")
+		(company "VAR.SYSTEMS")
+		(comment 1 "Francisco VARELA")
+	)
 	(lib_symbols)
 	(text "Signal Acquisition Sensor"
 		(exclude_from_sim no)
