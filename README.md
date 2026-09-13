@@ -18,6 +18,10 @@ The goal is to design a smart wearable device — integrated into a vest — tha
 
 	Motion tracking using IMU sensors (accelerometer, gyroscope, magnetometer).
 
+	REPOSITORY ON MY LINUX PC :
+	/Documents/var.systems/Wearable Wearable sports tracker
+	
+	
 	Heart rate and SpO₂ monitoring using optical sensors (MAX30102).
 
 	GPS positioning for speed, distance, and route tracking.
