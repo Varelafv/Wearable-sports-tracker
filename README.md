@@ -1,8 +1,11 @@
 <h1 align="center">🏃‍♂️ Wearable Sports Tracker</h1>
 
 This project was created as a learning exercise in developing a new electronic product, from concept to prototype.
-
 The goal is to design a smart wearable device — integrated into a vest — that can monitor an athlete’s performance and provide useful data to improve training results.
+
+	REPOSITORY ON MY LINUX PC :
+	/Documents/var.systems/Wearable Wearable sports tracker
+	
 
 🎯 Project Objectives 
 
