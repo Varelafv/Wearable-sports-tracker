@@ -4,7 +4,10 @@ This project was created as a learning exercise in developing a new electronic p
 The goal is to design a smart wearable device — integrated into a vest — that can monitor an athlete’s performance and provide useful data to improve training results.
 
 	REPOSITORY ON MY LINUX PC :
+	HARDWARE:
 	/Documents/var.systems/Wearable Wearable sports tracker
+	SOFTWARE
+	/home/pse/Documents/Embdded/workaspace/W55_ALL_PROJECTS/TEST_P_NUCLEOWB55
 	
 
 🎯 Project Objectives 
